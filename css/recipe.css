@@ -1,0 +1,74 @@
+#headings {
+    padding: 10px;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: #A4A400;
+}
+
+.mainheading {
+    text-align: center;
+    size: 22pt;
+    font-weight: bold;
+}   
+
+.otherheadings {
+    text-align: left;
+    size: 18pt;
+    font-weight: normal;
+}
+
+.basicproperty {
+    border-bottom: 1px solid black;
+}
+
+.comments {
+    background-color: #FFFFA8;
+    font-style: italic;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #404040;
+    size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+.footer{
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+ul {
+    list-style-image: url('../images/pie_bullet.png');
+}
