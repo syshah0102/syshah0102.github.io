@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/sunny-plants.jpg');
+    background-image: url('../images/sunny-plants.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
