@@ -1,0 +1,53 @@
+body{
+    background-image: url('images/sunny-plants.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mytitle{
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 30;
+	font-style: oblique;
+}
+
+.myinfo{
+    font-family: cursive;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+.subtitles{
+    font-family: cursive;
+	font-size: 20;
+	font-style: oblique;
+}
+
+.listentries{
+    font-family: cursive;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: left;
+    width: 50%;
+}
+
+p:first-child:first-letter {
+    color: #903; 
+    font-family: Georgia;
+    initial-letter: 1;
+}
