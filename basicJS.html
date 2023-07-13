@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Basic JavaScript</title>
+</head>
+<body>
+    <script src = "js/basJS.js"></script>
+    Open Chrome Developer Console to see the output
+
+    <script>
+        console.log("Expected output of max(20, 10) is 20  " + myFunctionTest(20, function () {
+            return max(20, 10);
+        }));
+
+        console.log("Expected output of maxOfThree(10,45,20) is 45  " + myFunctionTest(45, function () {
+            return maxOfThree(10,45,20);
+        }));
+
+        console.log("Expected output of isVowel('a') is a  " + myFunctionTest('Is a Vowel', function () {
+            return isVowel('a');
+        }));
+
+        console.log("Expected output of sumAll(1,2,3,4,5) is 15  " + myFunctionTest(15, function () {
+            return sumAll(1,2,3,4,5);
+        }));
+
+        console.log("Expected output of sumAllArray([1,2,3,4,5]) is 15  " + myFunctionTest(15, function () {
+            return sumAllArray([1,2,3,4,5]);
+        }));
+
+        console.log("Expected output of multiplyAllArray([1,2,3,4]) is 24  " + myFunctionTest(24, function () {
+            return multiplyAllArray([1,2,3,4]);
+        }));
+
+        console.log("Expected output of revString('aha') is aha  " + myFunctionTest('aha', function () {
+            return revString('aha');
+        }));
+
+        console.log("Expected output of findLongestWord(['this','is','new','to','me']) is this  " + myFunctionTest('this', function () {
+            return findLongestWord(['this','is','new','to','me']);
+        }));
+
+        console.log("Expected output of filterLongWords(['why','are','dogs','louder','than','cats'],3) is [dogs,louder,than,cats]  " + myFunctionTest('[dogs,louder,than,cats]', function () {
+            return filterLongWords(['why','are','dogs','louder','than','cats'],3);
+        }));
+
+        jsfiddle()
+    </script>
+</body>
+
+</html>
